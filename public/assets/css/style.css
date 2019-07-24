@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #444;
+  color: #fff;
+  height: 100%;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  background: url("../img/skyscraper.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1,
+label {
+  color: white;
+}
+/* h5,#p1{
+  color:black;
+} */
+
+a {
+  font-size: 2em;
+}
+
+.card-horizontal {
+  
+  display: flex;
+  flex: 1 1 auto;
+}
+#card{
+  border: 2px solid yellow;
+  border-radius:0 0 0px 80px;
+      padding: 1rem 2rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(65, 65, 64, 0.5)), center no-repeat;
+}
+#card:hover{
+    padding: 1.2rem 2.1rem;
+    color: white;
+  }
+  #card1{
+  border: 2px solid yellow;
+  border-radius:0 0px 0px 80px;
+      padding: 1rem 2rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(65, 65, 64, 0.5)), center no-repeat;
+}
+  #card2{
+  border: 2px solid yellow;
+  border-radius:0 0 80px 0;
+      padding: 1rem 2rem;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(65, 65, 64, 0.5)), center no-repeat;
+}
+.form-group{
+  justify-content:flex-end;
+}
+
