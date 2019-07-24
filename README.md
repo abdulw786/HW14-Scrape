@@ -1,16 +1,9 @@
-# Scraper Deluxe
+# Scraper
 
 ## Application Deployed on Heroku
 
 [https://scraper-peb.herokuapp.com/](https://scraper-peb.herokuapp.com/)
 
-## Video Demonstration
-
-[]()
-
-### To run the application:
-
-* npm start
 
 ### Technologies used: 
 
@@ -22,14 +15,14 @@
 * MVC
 * MongoDB
 * Mongoose
-* Cheerio
 
 ## Overview
 
-Scraper Deluxe is a simple news scraper program that scrapes articles from the Daily Herald Entertainment page. The application searches for article titles, summaries, article links and thumbnail photos and stores them in a Mongo database. The user may select a particular article to view, add or delete comments. The comments are also persisted in the Mongo database. 
+Daily Herald
 
-## Architecture
+A web-scraping app developed using
 
-This application is a Node/Express application with a full HTML front-end using the MVC framework. The back-end database is MonoDB with Mongoose as an ORM. The article and comment cards in the HTML pages were generated using the Handlebars template library. The HTML controller handles page routes.  
+The application will let the user scrape news articles from Daily Herald website. When the user clicks on Scrape Article button a certain amount of articles will get displayed as a card with the following information Title, Link to the Article(Click on "Go to the article link"), Summary and byline if it's available from New York Times on the web page.
 
-There are two Mongo collections, Article and Note. Each article may have many notes. This is reflected in the notes field referencing the Note collection. The Scraping screen references just the article collection. The comments screen queries a single article populated with the notes via the Mongoose populate functionality. When a comment is deleted the note is removed both from the Article's note list as well as the Note collection. 
+
+A note can be created in the saved article by clicking on Create Notes button. Once the button is clicked a modal will get displayed for the user to create a note. As many number of notes can be created for a particular article, and the note is displayed for all the users who wants to view the note. A note can be deleted by clicking on the delte button on the side of the note.
