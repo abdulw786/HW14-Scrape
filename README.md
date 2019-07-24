@@ -2,7 +2,7 @@
 
 ## Application Deployed on Heroku
 
-[https://scraper-peb.herokuapp.com/](https://scraper-peb.herokuapp.com/)
+[/](https://scraper-peb.herokuapp.com/)
 
 
 ### Technologies used: 
@@ -18,7 +18,6 @@
 
 ## Overview
 
-Daily Herald
 
 A web-scraping app developed using
 
