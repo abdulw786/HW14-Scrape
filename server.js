@@ -4,8 +4,8 @@ const logger = require("morgan");
 const mongoose = require("mongoose");
 const exphbs = require("express-handlebars");
 const app = express();
-const PORT = process.env.PORT || 3000;
 console.log("process.env.PORT = " + process.env.PORT);
+const PORT = process.env.PORT || 3000;
 
 app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
