@@ -5,10 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js",
-    "watch": "nodemon server.js",
-    "test:lint": "cross-env-shell \"echo $NODE_ENV\"",
-    "test:test": "cross-env-shell \"echo $NODE_ENV\""
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
