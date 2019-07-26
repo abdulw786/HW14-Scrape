@@ -2,7 +2,7 @@
 
 ## Application Deployed on Heroku
 
-[/](https://scraper-peb.herokuapp.com/)
+[/](https://news--scrapers.herokuapp.com/)
 
 
 ### Technologies used: 
