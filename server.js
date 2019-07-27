@@ -19,7 +19,7 @@ app.set("view engine", "handlebars");
 // const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/scraper";
 
 // mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
-mongoose.connect("mongodb://heroku_8p77bgdc:123Abdul7@6@ds255857.mlab.com:55857/heroku_8p77bgdc")
+mongoose.connect("mongodb://heroku_8p77bgdc:123GitHub786@ds255857.mlab.com:55857/heroku_8p77bgdc")
 
 
 require("./controllers/htmlController")(app);
